@@ -16,6 +16,5 @@ def logins(urls=test_url.orange_hrm_url, usernames=datas.username, passwords=dat
     driver.find_element(By.NAME, test_xpaths.password_xpath).send_keys(passwords)
     driver.find_element(By.XPATH, test_xpaths.click_button).click()
     print("Login successful")
-    driver.quit()
+    return driver
 
-logins()
