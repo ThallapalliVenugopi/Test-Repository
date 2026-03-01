@@ -1,0 +1,1 @@
+orange_hrm_url = "https://www.saucedemo.com/"
